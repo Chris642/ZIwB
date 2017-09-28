@@ -1,0 +1,18 @@
+{% if page.url == "/" %}
+	<li><a href="http://localhost:4000" class="current">Main</a></li>
+{% else %}
+	<li><a href="http://localhost:4000"class="hvr-shutter-out-vertical">Main</a></li>
+{% endif %}
+
+
+{% for node in pages_list %}
+  {% if group == null or group == node.group %}
+    {% if page.url == node.url %}
+      <li><a href="{{node.url}}" class="current">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url}}"class="hvr-shutter-out-vertical">{{node.title}}</a></li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign pages_list = nil %}
+{% assign group = nil %}

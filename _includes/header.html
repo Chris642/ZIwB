@@ -1,0 +1,38 @@
+<aside>
+	<div class="container">
+		<nav>
+			<ul>
+				{% comment %}
+				<li><a class="aside" href="{{ "http://localhost:4000/" | prepend: site.baseurl }}">Main</a></li>
+                                {% for page in site.pages %} {% if page.title %}
+                                <li><a class="aside"  href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                                {% endif %} {% endfor %}
+                                <li><a class="aside" href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>
+				
+				{% for node in site.pages %}
+				{% if page.url == node.url %}
+			        <li><a class="aside.active" href="{{node.url}}">{{node.title}}</a></li>
+   				{% else %}
+			        <li><a class="hvr-shutter-out-vertical" href="{{node.url}}">{{node.title}}</a></li>
+				{% endif %}
+				{% endfor %} 		
+				
+				{% endcomment %}
+				
+  				{% assign pages_list = site.pages %}
+				{% assign group = 'navigation' %}	
+				{% include pages_list %}
+			
+
+	
+			</ul>
+			</li>
+			</ul>
+		</nav>
+	</div>
+</aside>
+
+<header>
+	<h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+</header>
+ 

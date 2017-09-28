@@ -1,0 +1,23 @@
+$content-width: 800px;
+$main: #faf6fb;
+$font-style: 'Open Sans', sans-serif;
+$font-color: #faf6fb;
+$link-color: #C4BBC7;
+$link-hover-color: $main;
+$heading-font: 'Muli', sans-serif;
+$heading-font-color: #F1E4F4;
+$light: #E7EDF4;
+$header:  #1D1425;
+$textbackground:  #2a1d36; /*  main */
+$realbackground:  #1D1425; 
+$headingcolor: #425469;
+$backformenu: #73607a;
+
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+} 
