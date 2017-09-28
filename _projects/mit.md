@@ -7,5 +7,5 @@ desc: "Quick description."
 
 TEXT TEST
 {% for post in site.categories.mit_challenge %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></li>
 {% endfor %}
