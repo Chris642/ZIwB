@@ -1,7 +1,7 @@
 {% if page.url == "/" %}
-	<li><a href="http://localhost:4000" class="current">Main</a></li>
+	<li><a href="https://happy2death.github.io/Testsite/" class="current">Main</a></li>
 {% else %}
-	<li><a href="http://localhost:4000"class="hvr-shutter-out-vertical">Main</a></li>
+	<li><a href="https://happy2death.github.io/Testsite/"class="hvr-shutter-out-vertical">Main</a></li>
 {% endif %}
 
 
