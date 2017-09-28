@@ -1,12 +1,12 @@
 # Site Settings
 title: Testing the test testingly 
-email: taniarascia@gmail.com
+email: fake@fake.com
 description: >
   A guide to getting started with Jekyll.
 baseurl: ""
 url: "http://localhost:4000"
-twitter_username: taniarascia
-github_username:  taniarascia
+twitter_username: fake
+github_username:  fake
 # Build Settings
 sass:
   sass_dir: _sass
