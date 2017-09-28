@@ -10,6 +10,7 @@ github_username:  fake
 # Build Settings
 sass:
   sass_dir: _sass
+  style: :expanded
 include: ['_pages']
 kramdown:
   input: GFM
