@@ -4,7 +4,7 @@ email: fake@fake.com
 description: >
   A guide to getting started with Jekyll.
 baseurl: "/Testsite"
-url: "https://happy2death.github.io/Testsite/"
+url: "https://happy2death.github.io"
 twitter_username: fake
 github_username:  fake
 # Build Settings
