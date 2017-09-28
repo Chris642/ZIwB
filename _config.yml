@@ -3,7 +3,7 @@ title: Testing the test testingly
 email: fake@fake.com
 description: >
   A guide to getting started with Jekyll.
-baseurl: ""
+baseurl: "/Testsite"
 url: "http://localhost:4000"
 twitter_username: fake
 github_username:  fake
