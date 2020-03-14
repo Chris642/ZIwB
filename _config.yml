@@ -7,11 +7,7 @@ baseurl: "/"
 url: "https://chris642.github.io"
 plugins:
   - jekyll-sitemap
-  - jekyll-analytics
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-160652089-1          # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
 twitter_username: fake
 github_username:  fake
 # Build Settings
