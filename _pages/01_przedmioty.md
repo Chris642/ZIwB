@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Projects 
+title: przedmioty
 group: "navigation"
-permalink: /projects/
+permalink: /przedmioty/
 ---
 
 {% for project in site.projects %}
