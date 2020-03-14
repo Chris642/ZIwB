@@ -5,6 +5,8 @@ description: >
   Strona poświęcona studiom na kierunku Informatyka w Procesach Biznesowych
 baseurl: "/"
 url: "https://chris642.github.io"
+plugins:
+  - jekyll-sitemap
 twitter_username: fake
 github_username:  fake
 # Build Settings
