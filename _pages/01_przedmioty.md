@@ -1,6 +1,6 @@
 ---
 layout: project
-title: przedmioty
+title: Przedmioty
 group: "navigation"
 permalink: /przedmioty/
 ---
